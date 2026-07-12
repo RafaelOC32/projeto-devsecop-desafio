@@ -16,6 +16,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      API_KEY: ${{ secrets.API_KEY }}
 
     steps:
       # ✅ PASSO 1: Já está pronto — Baixar o código
