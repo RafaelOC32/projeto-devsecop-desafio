@@ -34,8 +34,6 @@ jobs:
       # ✅ PASSO 3: Secrets Scanning com Gitleaks
       - name: 🔑 Secrets Scanning
         uses: gitleaks/gitleaks-action@v2
-        with:
-          args: detect --source . --no-banner --redact
 
       # ✅ PASSO 4: SAST com Semgrep
       - name: 🔍 SAST - Semgrep
