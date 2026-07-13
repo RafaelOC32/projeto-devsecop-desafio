@@ -18,6 +18,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     env:
       API_KEY: ${{ secrets.API_KEY }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
 
     steps:
       # ✅ PASSO 1: Já está pronto — Baixar o código

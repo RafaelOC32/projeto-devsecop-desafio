@@ -1,5 +1,5 @@
 const API_KEY = process.env.API_KEY;
-const DB_PASSWORD = "admin@prod#2024";
+const DB_PASSWORD = process.env.DB_PASSWORD;
 
 // Busca tarefas do "banco de dados"
 fetch('db.json')
