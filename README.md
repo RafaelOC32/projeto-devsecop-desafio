@@ -75,8 +75,6 @@ O Gitleaks identificou credenciais sensíveis hardcoded no código:
 - **Revogação de credenciais expostas**  
   - Token GitHub revogado e regenerado.  
   - Senha de banco substituída por nova credencial segura.  
-- **Garantia de não versionamento**  
-  - Adicionado `.env` ao `.gitignore` para evitar exposição futura de credenciais locais.
 
 ---
 
@@ -103,5 +101,6 @@ Após as correções:
 
 ## URL de Produção
 - URL do Repositório:
-https://github.com/RafaelOC32/projeto-devsecop-desafio
-- URL GitHub Pages: https://rafaeloc32.github.io/projeto-devsecop-desafio/
+<https://github.com/RafaelOC32/projeto-devsecop-desafio>
+- URL GitHub Pages:
+<https://rafaeloc32.github.io/projeto-devsecop-desafio/>
