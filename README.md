@@ -72,10 +72,7 @@ O Gitleaks identificou credenciais sensíveis hardcoded no código:
       API_KEY: ${{ secrets.API_KEY }}
       DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
     ```
-- **Revogação de credenciais expostas**  
-  - Token GitHub revogado e regenerado.  
-  - Senha de banco substituída por nova credencial segura.  
-
+    
 ---
 
 #### **Semgrep**
